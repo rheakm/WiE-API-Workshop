@@ -19,7 +19,7 @@ username: `rheakm`
 hash: `7541c966d819144e8927946e91e25b8a8c33c32b`
 
 
-## Javascript API request examples:
+## Javascript API request examples
 In Javascript we send API requests using the `fetch` API. The fetch function takes in 2 parameters: `RequestInfo` and `RequestInit`.
 
 The `RequestInfo` param consists of the URL or endpoint that we want to call. Eg:
