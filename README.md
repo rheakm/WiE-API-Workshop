@@ -67,5 +67,7 @@ fetch(requestInfo, requestInit)
 
 RUNNING THE PROJECT: since this is a basic HTML/Javascript project, you can simply open the `index.html` file in the web browser and refreshing it should reflect any of your changes.
 
+Once you feel confident in your solution or feel stuck, you can visit the branches for a [GET request solution](https://github.com/rheakm/WiE-API-Workshop/tree/solutions-get) or a [POST request solution](https://github.com/rheakm/WiE-API-Workshop/tree/solutions-post).
+
 ## Public APIs
 There are hundreds of free public APIs out there that you could use in this project or any future projects. Here is a github repo compiled of some of the more popular ones: [Public APIs repo](https://github.com/public-apis/public-apis)
