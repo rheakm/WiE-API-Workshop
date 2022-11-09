@@ -14,6 +14,9 @@ You can either create your own profile and ApiKey or for the purpose of this wor
 #### SESSION 1 
 apiKey: `7ff942b15aa64c0b98ec8395ac4d7f3a`
 
+#### SESSION 2
+apiKey: `03dfdb08ac1a46dcb3d1aa8b75321a1c`
+
 If you decide to play around with the `Meal Planning` requests, you can either create your own user following the [steps listed in the doc](https://spoonacular.com/food-api/docs#Working-with-the-Meal-Planner) or use my user and hash:
 
 #### SESSION 1
@@ -21,6 +24,10 @@ username: `api1`
 
 hash: `9477b97f7743e15819e7299bba312572a7fa8637`
 
+#### SESSION 2
+username: `api2`
+
+hash: `0e67697a2ec89726b2343c8f83798fe26f0f2f1b`
 
 ## Javascript API request examples
 In Javascript we send API requests using the `fetch` API. The fetch function takes in 2 parameters: `RequestInfo` and `RequestInit`.
