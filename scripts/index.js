@@ -10,14 +10,27 @@ const onload = () => {
   app.appendChild(logo);
   app.appendChild(container);
   
-  fetch(
-    /** TODO: use the knowledge learnt from the workshop and create your own request.
-     * Examples of GET and POST requests are available in the github README.md file.
-     * Refresh the page once you're confident of your request to see the response printed.
-     * Check the request in the network tab if it doesn't look as expected.
-     * Goodluck!
-     **/
-  )
+  fetch(`https://api.spoonacular.com/mealplanner/rheakm/items?`  + new URLSearchParams({
+    apiKey: '0e24609870c84901b83b80355954fd81',
+    hash: '7541c966d819144e8927946e91e25b8a8c33c32b'
+   }),
+     {
+      method: 'POST',
+      body: JSON.stringify({
+            'date': 1589500800,
+            'slot': 1,
+            'position': 0,
+            'type': 'INGREDIENTS',
+            'value': {
+                'ingredients': [
+                    {
+                        'name': '1 banana'
+                    }
+                ]
+            }
+        })
+    }
+)
     .then((response) => {
       // parse the response into Javascript objects
       return response.json()
