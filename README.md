@@ -65,41 +65,7 @@ The final `fetch` function should be called as follows:
 fetch(requestInfo, requestInit)
 ```
 
-A complete example would look like:
+RUNNING THE PROJECT: since this is a basic HTML/Javascript project, you can simply open the `index.html` file in the web browser and refreshing it should reflect any of your changes.
 
-For a GET request
-
-```
-fetch('https://api.spoonacular.com/food/ingredients/9266/information?'  + new URLSearchParams({
-    apiKey: "0e24609870c84901b83b80355954fd81",
-    amount: "1"
-   })
-)
- ```
- 
- For a POST request
- ```
- fetch('https://api.spoonacular.com/mealplanner/rheakm/items?'  + new URLSearchParams({
-    apiKey: "0e24609870c84901b83b80355954fd81",
-    hash: "7541c966d819144e8927946e91e25b8a8c33c32b"
-   }),
-     {
-      method: 'POST',
-      body: JSON.stringify({
-            "date": 1589500800,
-            "slot": 1,
-            "position": 0,
-            "type": "INGREDIENTS",
-            "value": {
-                "ingredients": [
-                    {
-                        "name": "1 banana"
-                    }
-                ]
-            }
-        })
-    }
-)
- ```
 ## Public APIs
 There are hundreds of free public APIs out there that you could use in this project or any future projects. Here is a github repo compiled of some of the more popular ones: [Public APIs repo](https://github.com/public-apis/public-apis)
