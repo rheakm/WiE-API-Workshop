@@ -10,13 +10,16 @@ Please have postman installed and ready to go for this workshop. You can install
 ## Spoonacular API Info
 We will be using the spoonacular API as examples in this workshop. The documantation for their api can be found [here](https://spoonacular.com/food-api/docs)
 
-You can either create your own profile and ApiKey or for the purpose of this workshop, you can use my ApiKey: `0e24609870c84901b83b80355954fd81`
+You can either create your own profile and ApiKey or for the purpose of this workshop, you can use my ApiKey: 
+#### SESSION 1 
+apiKey: `7ff942b15aa64c0b98ec8395ac4d7f3a`
 
 If you decide to play around with the `Meal Planning` requests, you can either create your own user following the [steps listed in the doc](https://spoonacular.com/food-api/docs#Working-with-the-Meal-Planner) or use my user and hash:
 
-username: `rheakm`
+#### SESSION 1
+username: `api1`
 
-hash: `7541c966d819144e8927946e91e25b8a8c33c32b`
+hash: `9477b97f7743e15819e7299bba312572a7fa8637`
 
 
 ## Javascript API request examples
