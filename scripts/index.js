@@ -10,14 +10,11 @@ const onload = () => {
   app.appendChild(logo);
   app.appendChild(container);
   
-  fetch(
-    /** TODO: use the knowledge learnt from the workshop and create your own request.
-     * Examples of GET and POST requests are available in the github README.md file.
-     * Refresh the page once you're confident of your request to see the response printed.
-     * Check the request in the network tab if it doesn't look as expected.
-     * Goodluck!
-     **/
-  )
+  fetch('https://api.spoonacular.com/food/ingredients/9266/information?'  + new URLSearchParams({
+    apiKey: "0e24609870c84901b83b80355954fd81",
+    amount: "1"
+   })
+)
     .then((response) => {
       // parse the response into Javascript objects
       return response.json()
